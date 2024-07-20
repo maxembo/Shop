@@ -489,7 +489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc8652a92a5be4c39a199f8296be4cee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _standart: {fileID: 21300000, guid: 1b212918de4fceb4289622cdb22df692, type: 3}
+  _standard: {fileID: 21300000, guid: 1b212918de4fceb4289622cdb22df692, type: 3}
   _highlight: {fileID: 21300000, guid: e3abc77c248eef4498194b6ef357595c, type: 3}
   _content: {fileID: 5857702332061550115}
   _lock: {fileID: 1809982116072397652}

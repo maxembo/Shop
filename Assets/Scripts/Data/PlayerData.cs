@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using Newtonsoft.Json;
 using Skins.CharacterSkins;
 using Skins.MazeSkins;
 
@@ -9,10 +9,10 @@ namespace Data
     public class PlayerData
     {
         private CharacterSkins _selectedCharacterSkin;
-        private MazeSkins _selectedMazeSkins;
+        private MazeSkins _selectedMazeSkin;
 
-        private List<CharacterSkins> _openCharacterSkins;
-        private List<MazeSkins> _openMazeSkins;
+        private readonly List<CharacterSkins> _openCharacterSkins;
+        private readonly List<MazeSkins> _openMazeSkins;
 
         private int _money;
 
@@ -21,10 +21,22 @@ namespace Data
             _money = config.Money;
 
             _selectedCharacterSkin = config.SelectedCharacterSkin;
-            _selectedMazeSkins = config.SelectedMazeSkin;
+            _selectedMazeSkin = config.SelectedMazeSkin;
 
             _openCharacterSkins = new List<CharacterSkins>() { _selectedCharacterSkin };
-            _openMazeSkins = new List<MazeSkins>() { _selectedMazeSkins };
+            _openMazeSkins = new List<MazeSkins>() { _selectedMazeSkin };
+        }
+
+        [JsonConstructor]
+        public PlayerData(int money, CharacterSkins selectedCharacterSkin,MazeSkins selectedMazeSkin, List<CharacterSkins> openCharacterSkins, List<MazeSkins> openMazeSkins)
+        {
+            Money = money;
+
+            _selectedCharacterSkin = selectedCharacterSkin;
+            _selectedMazeSkin = selectedMazeSkin;
+
+            _openCharacterSkins = new List<CharacterSkins>(openCharacterSkins);
+            _openMazeSkins = new List<MazeSkins>(openMazeSkins);
         }
 
         public int Money
@@ -53,13 +65,13 @@ namespace Data
 
         public MazeSkins SelectedMazeSkin
         {
-            get => _selectedMazeSkins;
+            get => _selectedMazeSkin;
             set
             {
                 if (_openMazeSkins.Contains(value) == false)
                     throw new ArgumentException(nameof(value));
 
-                _selectedMazeSkins = value;
+                _selectedMazeSkin = value;
             }
         }
 
@@ -67,7 +79,7 @@ namespace Data
 
         public IEnumerable<MazeSkins> OpenMazeSkins => _openMazeSkins;
 
-        public void OpenCharacterSKin(CharacterSkins characterSkin)
+        public void OpenCharacterSkin(CharacterSkins characterSkin)
         {
             if (_openCharacterSkins.Contains(characterSkin))
                 throw new ArgumentException(nameof(characterSkin));
@@ -75,7 +87,7 @@ namespace Data
             _openCharacterSkins.Add(characterSkin);
         }
 
-        public void OpenMazeSKin(MazeSkins mazeSkin)
+        public void OpenMazeSkin(MazeSkins mazeSkin)
         {
             if (_openMazeSkins.Contains(mazeSkin))
                 throw new ArgumentException(nameof(mazeSkin));

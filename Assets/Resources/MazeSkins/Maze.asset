@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Model>k__BackingField: {fileID: 2505562595466631896, guid: f2afe571ecc2c439a9729be50ca1fed4, type: 3}
   <Image>k__BackingField: {fileID: 21300000, guid: f1338710510a3f74f9d35f1af4dc5a27, type: 3}
-  <Price>k__BackingField: 10000
+  <Price>k__BackingField: 3000
   <SkinType>k__BackingField: 0
