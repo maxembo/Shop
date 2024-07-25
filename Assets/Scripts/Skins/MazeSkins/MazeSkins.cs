@@ -4,6 +4,9 @@ namespace Skins.MazeSkins
     {
        Egypt,
        Jungle,
-       Treasury
+       Treasury,
+       Green,
+       Cristal,
+       Flower
     }
 }

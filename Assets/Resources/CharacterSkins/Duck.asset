@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5b7b69485b449f4a55e6037f088d62, type: 3}
   m_Name: Duck
   m_EditorClassIdentifier: 
-  <Model>k__BackingField: {fileID: 5130155000261525594, guid: f540ad1faa47f4041a91ab0cc042b17c, type: 3}
+  <Model>k__BackingField: {fileID: 166016, guid: e99aeca4811d144ad93b121e551f976d, type: 3}
   <Image>k__BackingField: {fileID: 21300000, guid: 1b24a9fb77952cd48ab709339b73cb85, type: 3}
   <Price>k__BackingField: 4500
-  <SkinType>k__BackingField: 4
+  <SkinType>k__BackingField: 3

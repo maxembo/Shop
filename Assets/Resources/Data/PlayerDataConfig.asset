@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32dd274986e434352969c402a403c74e, type: 3}
   m_Name: PlayerDataConfig
   m_EditorClassIdentifier: 
-  <SelectedCharacterSkin>k__BackingField: 1
+  <SelectedCharacterSkin>k__BackingField: 2
   <SelectedMazeSkin>k__BackingField: 0
-  <Money>k__BackingField: 10000
+  <Money>k__BackingField: 30000

@@ -2,10 +2,17 @@ namespace Skins.CharacterSkins
 {
     public enum CharacterSkins
     {
-        Anubis,
-        Bear,
+        Viking,
         Cat,
-        Dog,
-        Duck
+        Bat,
+        Duck,
+        Ghost,
+        Rabbit,
+        Penguin,
+        Beaver,
+        Sheep,
+        Flower,
+        Slime,
+        Anubis
     }
 }

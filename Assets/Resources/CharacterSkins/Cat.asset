@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5b7b69485b449f4a55e6037f088d62, type: 3}
   m_Name: Cat
   m_EditorClassIdentifier: 
-  <Model>k__BackingField: {fileID: 1557504234430140505, guid: 420222ddb8ad14a00a05abc048033a0d, type: 3}
+  <Model>k__BackingField: {fileID: 137848, guid: f582f8bc6bba441f9b6f0f79f9439ed1, type: 3}
   <Image>k__BackingField: {fileID: 21300000, guid: cb53c381a7b9c6b4d9553619ea505c94, type: 3}
   <Price>k__BackingField: 3000
-  <SkinType>k__BackingField: 2
+  <SkinType>k__BackingField: 1

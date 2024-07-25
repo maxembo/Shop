@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a401246ec89249f4b4a56005e465bd01, type: 3}
+  m_Name: MazeCellsFactory
+  m_EditorClassIdentifier: 
+  _egypt: {fileID: 3994772912033628446, guid: dbe298804d61947a3ae63915ce59a05a, type: 3}
+  _jungle: {fileID: -1491298321750136295, guid: 9872a23871188476a82e9c9efdd7fead, type: 3}
+  _treasury: {fileID: -5501133978098617213, guid: 8296fd9c248414d19a8a6e9add286f1b, type: 3}
+  _green: {fileID: 3909523126801491015, guid: 5d3767156320c4038917470b219b613a, type: 3}
+  _cristal: {fileID: 7155175275237724078, guid: 84597a455f9b447f4b3c65390dcd688f, type: 3}
+  _flower: {fileID: 2887115036094040475, guid: 696fa3d5b53a141a39bbfc7838e1c2f7, type: 3}

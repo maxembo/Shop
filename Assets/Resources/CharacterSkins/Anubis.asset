@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5b7b69485b449f4a55e6037f088d62, type: 3}
   m_Name: Anubis
   m_EditorClassIdentifier: 
-  <Model>k__BackingField: {fileID: 5419278925426402927, guid: ad22e8578a717498a88c7fd688bb5703, type: 3}
+  <Model>k__BackingField: {fileID: 5475500558860850151, guid: 45253fbbe862c4406b215c63cbb5baee, type: 3}
   <Image>k__BackingField: {fileID: 21300000, guid: a1a0aa5c4d0274a4c9712d935c780d9a, type: 3}
-  <Price>k__BackingField: 2000
-  <SkinType>k__BackingField: 0
+  <Price>k__BackingField: 3000
+  <SkinType>k__BackingField: 11

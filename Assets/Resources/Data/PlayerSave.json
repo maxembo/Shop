@@ -1,14 +1,18 @@
 {
   "Money": 1500,
-  "SelectedCharacterSkin": 3,
-  "SelectedMazeSkin": 0,
+  "SelectedCharacterSkin": 11,
+  "SelectedMazeSkin": 4,
   "OpenCharacterSkins": [
-    1,
-    0,
-    3
+    2,
+    8,
+    3,
+    9,
+    10,
+    4,
+    11
   ],
   "OpenMazeSkins": [
     0,
-    1
+    4
   ]
 }

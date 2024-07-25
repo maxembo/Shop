@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396906f38a1049728ef7a155faacb477, type: 3}
+  m_Name: CharacterFactory
+  m_EditorClassIdentifier: 
+  _viking: {fileID: 1576409926090480300, guid: f0dbe544eadc54252b10374da229ed10, type: 3}
+  _cat: {fileID: 2798175549027399189, guid: f582f8bc6bba441f9b6f0f79f9439ed1, type: 3}
+  _bat: {fileID: 8205361467182750378, guid: a300b93764f24c94b9ddb3445d906548, type: 3}
+  _duck: {fileID: 1145235078117913258, guid: e99aeca4811d144ad93b121e551f976d, type: 3}
+  _ghost: {fileID: 1428594666540116176, guid: 30d420b7cf5d3ad40b5c02db6d73287a, type: 3}
+  _rabbit: {fileID: 2416591226071466840, guid: 2a4adfdefdadd7048a18bb7e7cc5b23b, type: 3}
+  _penguin: {fileID: -6307337079633559566, guid: b4f780f66f6c2460880744d6ce35dc32, type: 3}
+  _beaver: {fileID: 1969106508147646578, guid: 5e492e342f5ca4cafa2e94ed5f041a54, type: 3}
+  _sheep: {fileID: 6323939987607386311, guid: 380785a76dacb41638ecf7fb9b150820, type: 3}
+  _flower: {fileID: 5708297852443629765, guid: 6c7df2f127708492681528163b053652, type: 3}
+  _slime: {fileID: -5786919774484051487, guid: 9aad9de7cbca6d84b82891c3a1e63e34, type: 3}
+  _anubis: {fileID: 7254616386639919414, guid: 45253fbbe862c4406b215c63cbb5baee, type: 3}

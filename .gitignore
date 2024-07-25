@@ -74,3 +74,10 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 .DS_Store
+
+# Assets
+JKT_Art*
+Kawaii Slimes*
+Level 1 Monster Pack*
+
+
